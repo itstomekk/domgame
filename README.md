@@ -22,17 +22,18 @@ Każdy dom to osobny katalog: `index.html` (lobby) + katalog domu (`renik/`) z w
 
 - **Spacer w pierwszej osobie** po całym mieszkaniu, z kolizjami: ściany, meble, drzwi, antresola.
 - **Makieta** - całe mieszkanie widziane z góry, jak dom dla lalek (przekrój przez ściany).
-- **Pory dnia** - zachód, noc, dzień. Włącznik światła w przedpokoju (albo klawisz `E` obok niego).
+- **Pory dnia** - zachód, noc, dzień. Włącznik światła na końcu korytarza (albo klawisz `E` obok niego).
 - **Zdjęcia 360°** - dla każdego pomieszczenia panorama do rozglądania się w środku.
 - **Widok realistyczny** - przełącznik między modelem 3D a zdjęciem tego samego kadru.
 - **Rzuty architekta** - 9 arkuszy w oryginale: układ ścian, aranżacja, gniazda, sufity, posadzki, wykończenia, rozwinięcia kuchni i łazienki, zmiany deweloperskie.
 - **30 misji** w trzech grupach (pokoje, przełączniki, odkrycia), z zapisem postępu w przeglądarce. Na końcu finał.
 - **Akcje przy sprzętach** - klawisz `E` przy sedesie (spuść wodę), łóżku (pościel), popielniczce i biurku (posprzątaj fajki), prysznicu (odkręć), na balkonie sypialni (posłuchaj gołębia).
-- **Okolica: wł./wył.** - odgłosy miasta i podwórka za oknem, do wyłączenia jednym kliknięciem.
+- **Okolica: wł./wył.** - odgłosy miasta i podwórka za oknem (radiowóz słychać w całym mieszkaniu), do wyłączenia jednym kliknięciem.
 - **Antresola i drabinka** - wejście po drabince klawiszem `E`.
 - **Skakanie po meblach** - spacja. Można wskoczyć na sofę, stół, parapet.
-- **Kot** - chodzi po mieszkaniu. Spacja obok kota kopie kota.
-- **Muzyka** - pięć trybów: wył., dworska, disco polo, french touch i RAVE, który sam się włącza przy konsoli DJ.
+- **Kot** - chodzi po mieszkaniu. Spacja obok kota kopie kota: kot odlatuje, ląduje i leży nieprzytomny. Gdy na balkonie siedzą ptaki, kot skacze do okna, żeby je spłoszyć.
+- **Ptaki za oknem** - rzadko przylatuje stadko dwóch albo trzech ptaków na balkon salonu. Podejdziesz do okna - odlatują. Gołąb na balkonie sypialni też ucieka, jak się zbliżysz.
+- **Muzyka** - sześć trybów: wył., dworska, disco polo, french touch, pociąg i RAVE, który sam się włącza przy konsoli DJ. Muzyka startuje losowym kawałkiem.
 - **14 kolorów ścian** do przeklikiwania.
 - **Jakość: pełna / niska** - dla słabszych komputerów.
 
@@ -58,7 +59,7 @@ Interface i tryby:
 | ![Lobby](docs/img/lobby.jpg) **Lobby** - wybór domu | ![Intro](docs/img/intro.jpg) **Intro** - animacja powitalna z dźwiękiem |
 | ![Misje](docs/img/misje.jpg) **Misje** - 30 zadań w trzech grupach | ![Rzuty](docs/img/rzuty.jpg) **Rzuty** - arkusze architekta w oryginale |
 | ![Noc](docs/img/noc.jpg) **Noc** - Warszawa za oknem | ![Zdjęcie 360°](docs/img/zdjecie-360.jpg) **Zdjęcie 360°** - panorama pomieszczenia |
-| ![Przedpokój](docs/img/przedpokoj.jpg) **Przedpokój** - drzwi wejściowe, włącznik światła | ![Łazienka](docs/img/lazienka.jpg) **Łazienka** - prysznic, umywalka, lustro |
+| ![Przedpokój](docs/img/przedpokoj.jpg) **Przedpokój** - drzwi wejściowe | ![Łazienka](docs/img/lazienka.jpg) **Łazienka** - prysznic, umywalka, lustro |
 
 ## Sterowanie
 
@@ -71,6 +72,14 @@ Interface i tryby:
 | kółko myszy | kąt widzenia (w makiecie: przybliżenie) |
 | przyciski na dole | pokoje, makieta, zdjęcie 360°, widok realistyczny, rzuty, kolor ścian, jakość, okolica, muzyka |
 | mapa w prawym górnym rogu | kliknięcie przenosi w to miejsce |
+
+## Adresy
+
+| Adres | Efekt |
+|---|---|
+| `#living` `#kitchen` `#hall` `#bath` `#bedroom` `#study` `#mural` `#mezz` `#office` | start w tym pomieszczeniu |
+| `#doll` | start w makiecie |
+| `?bp=1` | chata bez popielniczki, paczki i misji sprzątania fajek - zostaje 29 misji. Działa też `#bp`, `?bez-papierosow`, `?nosmoking` |
 
 ## Jak to jest zrobione
 
