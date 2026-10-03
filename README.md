@@ -26,7 +26,9 @@ Każdy dom to osobny katalog: `index.html` (lobby) + katalog domu (`renik/`) z w
 - **Zdjęcia 360°** - dla każdego pomieszczenia panorama do rozglądania się w środku.
 - **Widok realistyczny** - przełącznik między modelem 3D a zdjęciem tego samego kadru.
 - **Rzuty architekta** - 9 arkuszy w oryginale: układ ścian, aranżacja, gniazda, sufity, posadzki, wykończenia, rozwinięcia kuchni i łazienki, zmiany deweloperskie.
-- **25 misji** z zapisem postępu w przeglądarce (licznik w lewym górnym rogu). Na końcu finał.
+- **30 misji** w trzech grupach (pokoje, przełączniki, odkrycia), z zapisem postępu w przeglądarce. Na końcu finał.
+- **Akcje przy sprzętach** - klawisz `E` przy sedesie (spuść wodę), łóżku (pościel), popielniczce i biurku (posprzątaj fajki), prysznicu (odkręć), na balkonie sypialni (posłuchaj gołębia).
+- **Okolica: wł./wył.** - odgłosy miasta i podwórka za oknem, do wyłączenia jednym kliknięciem.
 - **Antresola i drabinka** - wejście po drabince klawiszem `E`.
 - **Skakanie po meblach** - spacja. Można wskoczyć na sofę, stół, parapet.
 - **Kot** - chodzi po mieszkaniu. Spacja obok kota kopie kota.
@@ -53,10 +55,10 @@ Interface i tryby:
 
 |||
 |---|---|
-| ![Lobby](docs/img/lobby.jpg) **Lobby** - wybór domu | ![Intro](docs/img/intro.jpg) **Wejście** - ekran powitalny |
-| ![Misje](docs/img/misje.jpg) **Misje** - 25 zadań z licznikiem | ![Rzuty](docs/img/rzuty.jpg) **Rzuty** - arkusze architekta w oryginale |
+| ![Lobby](docs/img/lobby.jpg) **Lobby** - wybór domu | ![Intro](docs/img/intro.jpg) **Intro** - animacja powitalna z dźwiękiem |
+| ![Misje](docs/img/misje.jpg) **Misje** - 30 zadań w trzech grupach | ![Rzuty](docs/img/rzuty.jpg) **Rzuty** - arkusze architekta w oryginale |
 | ![Noc](docs/img/noc.jpg) **Noc** - Warszawa za oknem | ![Zdjęcie 360°](docs/img/zdjecie-360.jpg) **Zdjęcie 360°** - panorama pomieszczenia |
-| ![Przedpokój](docs/img/przedpokoj.jpg) **Przedpokój** - szafa, włącznik światła | ![Łazienka](docs/img/lazienka.jpg) **Łazienka** - prysznic, umywalka, lustro |
+| ![Przedpokój](docs/img/przedpokoj.jpg) **Przedpokój** - drzwi wejściowe, włącznik światła | ![Łazienka](docs/img/lazienka.jpg) **Łazienka** - prysznic, umywalka, lustro |
 
 ## Sterowanie
 
@@ -65,9 +67,9 @@ Interface i tryby:
 | mysz (przeciągnij) | rozglądanie się |
 | `W` `A` `S` `D` albo strzałki | chodzenie, strzałki w lewo/prawo obracają |
 | spacja | skok (na meble też) |
-| `E` | drabinka na antresolę, włącznik światła |
+| `E` | drabinka na antresolę, włącznik światła, akcje przy sprzętach (spłuczka, łóżko, fajki, prysznic, gołąb) |
 | kółko myszy | kąt widzenia (w makiecie: przybliżenie) |
-| przyciski na dole | pokoje, makieta, zdjęcie 360°, widok realistyczny, rzuty, kolor ścian, jakość, muzyka |
+| przyciski na dole | pokoje, makieta, zdjęcie 360°, widok realistyczny, rzuty, kolor ścian, jakość, okolica, muzyka |
 | mapa w prawym górnym rogu | kliknięcie przenosi w to miejsce |
 
 ## Jak to jest zrobione
